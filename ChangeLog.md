@@ -31,6 +31,7 @@ Table:
 - Fixed issue for querying GUIDs using operators other than eq and ne
 - GUID queries only support persistent storage on legacy (string) format GUIDs for eq and ne operators, other operators will only evaluate newly stored entities.
 - Fixed issue with boolean values not being recognized in query if using different cased characters.
+- Fixed issue with headers length when deserializing batch deletes.
 
 Queue:
 
